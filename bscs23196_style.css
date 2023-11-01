@@ -1,0 +1,364 @@
+.logo {
+    width: 80px;
+    height: 80px;
+ 
+
+}
+
+.top {
+  
+    height: 70px;
+}
+
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: block;
+    font-size: 25px;
+    text-align: right;
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    
+}
+
+.intro {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    height: 1000px;
+    overflow: hidden;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px;
+    text-align: left;
+    position: sticky;
+}
+
+.intro h1 {
+    color: darkkhaki;
+}
+
+
+.button-9 {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: purple;
+    border-radius: 50px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 150%;
+    height: 50px;
+    margin: 50px 0 0;
+    outline: groove;
+    padding: 5px 25px;
+
+}
+
+.butt a {
+    color: antiquewhite;
+    list-style: none;
+    text-decoration:none;
+    padding: 30px;
+
+}
+
+.butt a:hover {
+    color: lightblue;
+    background-color: transparent;
+}
+
+nav ul li{
+    text-align:right;
+    list-style: none;
+    margin: 10px 20px;
+    display:inline-flex;
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+     background-color: #04AA6D;
+     color: black;
+    }
+
+
+.About 
+{
+ font-family:Georgia, 'Times New Roman', Times, serif;
+overflow: hidden;
+position: relative;
+color: black;
+background-color: lightgrey;
+background-image: url(background2.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+padding: 30px;
+text-align: 
+}
+
+
+footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightslategrey;
+    color: black;
+    text-align: center;
+}
+
+nav2 ul li {
+    text-align: right;
+    margin: 0px 40px;
+    list-style: none;
+    font-size: 20px;
+    display: inline-grid;
+}
+
+    nav2 ul li a {
+        text-decoration:none;
+        color: black;
+    }
+
+        nav2 ul li a:hover {
+            background-color: #04AA6D;
+
+        }
+
+
+nav3 ul li {
+   
+    margin: 30px 10px;
+    list-style: none;
+    font-size: 20px;
+    display: inline-block;
+}
+
+    nav3 ul li a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+        nav3 ul li a:hover {
+            background-color: #04AA6D;
+        }
+
+footer2 {
+
+    color: black;
+    text-align: center;
+    font-size:17px;
+}
+
+.PRODUCTS {
+ 
+    margin: 1rem;
+    padding: 2rem 2rem;
+
+   
+    
+}
+.product1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 400px;
+    text-align: center;
+    font-family: Arial;
+    display: grid;
+}
+
+    .product1 button {
+        border: none;
+        outline: 0;
+        padding: 10px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+     
+    }
+
+        .product1 button:hover {
+            opacity: 0.7;
+        }
+
+.price {
+    color: grey;
+    font-size: 22px;
+}
+
+
+.product2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    display: grid;
+    margin-inline: unset;
+    margin: -448px 500px;
+
+}
+
+    .product2 button {
+        border: none;
+        outline: 0;
+        padding: 10px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+        .product2 button:hover {
+            opacity: 0.7;
+        }
+
+.price2 {
+    color: grey;
+    font-size: 22px;
+}
+
+.product3 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    display: inline-block;
+   
+    margin: 500px 1px;
+}
+
+    .product3 button {
+        border: none;
+        outline: 0;
+        padding: 10px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        
+    }
+
+        .product3 button:hover {
+            opacity: 0.7;
+        }
+
+.price3 {
+    color: grey;
+    font-size: 22px;
+}
+
+
+.product4 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    display: inline-block;
+    margin: 500px 94px;
+}
+
+    .product4 button {
+        border: none;
+        outline: 0;
+        padding: 10px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+        .product4 button:hover {
+            opacity: 0.7;
+        }
+
+.price4 {
+    color: grey;
+    font-size: 22px;
+}
+
+.product5 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    display: inline-block;
+    margin: -700px 50px;
+}
+
+    .product5 button {
+        border: none;
+        outline: 0;
+        padding: 10px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+        .product5 button:hover {
+            opacity: 0.7;
+        }
+
+.price5 {
+    color: grey;
+    font-size: 22px;
+}
+
+
+
+.product6 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    display: inline-block;
+    margin: -600px 55px;
+
+}
+
+    .product6 button {
+        border: none;
+        outline: 0;
+        padding: 10px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+        .product6 button:hover {
+            opacity: 0.7;
+        }
+
+.price6 {
+    color: grey;
+    font-size: 22px;
+}
+
+
